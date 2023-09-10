@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.author        = "Chad Upton"
   gem.license       = "MIT"
 
-  gem.homepage      = "http://github.com/instinctscience/hiera-eyaml-kms"
+  gem.homepage      = "http://github.com/vzbl/hiera-eyaml-kms"
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
